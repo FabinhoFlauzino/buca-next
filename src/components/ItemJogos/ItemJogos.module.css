@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.card {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-weight: 600;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.card div:nth-child(1) {
+  display: flex;
+}
+
+.card div img {
+  width: 55px;
+  height: 55px;
+}

@@ -1,0 +1,92 @@
+.container_principal {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 768px;
+  margin: 0 auto;
+  gap: 40px;
+  text-align: center;
+}
+
+.container_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.container_input div {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 20px;
+  gap: 5px;
+  background-color: black;
+}
+
+.container_input div img {
+  width: 35px;
+}
+
+.container_input input {
+  border: 0;
+  outline: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.container_input input::placeholder {
+  text-decoration: overline;
+}
+
+.container_btns {
+  padding: 10px;
+  background-color: black;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container_btns button {
+  padding: 15px 0;
+  flex: 1 1 100px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+}
+
+.container_btns button:nth-child(1) {
+  background-color: green;
+}
+
+.container_btns button:nth-child(2) {
+  background-color: blue;
+}
+
+.container_btns button:nth-child(3) {
+  background-color: red;
+}
+
+.container_btns button:nth-child(4) {
+  color: black;
+}
+
+.container_jogos {
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
